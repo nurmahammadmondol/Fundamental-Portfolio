@@ -1,22 +1,31 @@
-# Nur Mahammad Mondol Robiul – Portfolio
+# 🌐 Personal Portfolio – Nur Mahammad Mondol Robiul
 
-React + Vite + Tailwind CSS + DaisyUI + Lucide React
+A modern, responsive and animated personal portfolio website showcasing my profile, educational background, technical skills and contact information.
 
-## চালানোর নিয়ম
-```bash
-npm install
-npm run dev      # লোকালে দেখুন
-npm run build    # প্রোডাকশন বিল্ড (dist ফোল্ডার)
-```
+## ✨ Features
+- Modern and responsive UI design
+- Smooth animations and motion effects
+- About Me section
+- Educational Qualification
+- Skills with technology logos
+- Interactive contact form with email integration
+- CV viewing option
+- Social media links (GitHub, LinkedIn)
+- Mobile-friendly navigation
 
-## নিজের তথ্য বদলানো
-- `src/data/config.js` : GitHub, LinkedIn, ইমেইল, বায়ো, Education, Skills
-- ছবি: `public/profile.webp` | CV: `public/cv.pdf` (এই নামে আপনার CV PDF রাখুন)
+## 🛠️ Technologies Used
+- React.js
+- Tailwind CSS
+- JavaScript
+- Framer Motion
+- Lucide React
+- EmailJS
 
-## Contact ফর্ম (EmailJS)
-1. https://www.emailjs.com এ ফ্রি অ্যাকাউন্ট খুলুন, একটি Service ও Template বানান
-   (Template এ `{{name}}`, `{{email}}`, `{{subject}}`, `{{message}}` ব্যবহার করুন)
-2. `.env.example` কপি করে `.env` বানান এবং তিনটি মান বসান
-3. Netlify/Vercel এ ডিপ্লয় করলে একই তিনটি Environment Variable যোগ করুন
+## 📬 Contact
+- **Name:** Nur Mahammad Mondol Robiul
+- **Portfolio:** [Visit My Portfolio](https://nurmahammadmondol.netlify.app/)
+- **GitHub:** [My GitHub Profile](YOUR_GITHUB_URL)
+- **LinkedIn:** [My LinkedIn Profile](YOUR_LINKEDIN_URL)
 
-কনফিগার না করলে "Send Message" চাপলে ইমেইল অ্যাপ খুলবে।
+
+⭐ Thank you for visiting my portfolio!

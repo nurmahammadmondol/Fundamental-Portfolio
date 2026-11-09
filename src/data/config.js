@@ -5,10 +5,10 @@ export const SITE = {
   title: "MERN Stack Developer",
   location: "Rangpur, Bangladesh",
   email: "nurmahammadmondolrobiul@gmail.com",
-  github: "https://github.com/nurmahammadmondol",   // TODO: নিজের GitHub লিংক দিন, যেমন https://github.com/your-username
-  linkedin: "https://www.linkedin.com/in/nur-mohammad-mondol-robiul-8672b4334", // TODO: নিজের LinkedIn লিংক দিন
+  github: "https://github.com/nurmahammadmondol",  
+  linkedin: "https://www.linkedin.com/in/nur-mohammad-mondol-robiul-8672b4334", 
   oldPortfolio: "https://nurmahammadmondol.netlify.app/",
-  cv: "/cv.pdf", // public/cv.pdf ফাইলটি রাখুন
+  cv: "/myCV.pdf", // public/cv.pdf ফাইলটি রাখুন
 };
 
 // Hero তে প্রতি ১০ সেকেন্ডে একটার পর একটা এই টাইটেলগুলো দেখাবে
