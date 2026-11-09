@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, FileText } from "lucide-react";
 import { SITE, ROLES } from "../data/config";
 
-const TYPE_LINES = ["Hello, I'm", "Nur Mahammad", "Mondol", "Robiul"]; // পেজ খুললে একবারই টাইপ হবে
+const TYPE_LINES = ["Hello, I'm", "Nur Mahammad", "Mondol Robiul"]; // পেজ খুললে একবারই টাইপ হবে
 const RESTART_AFTER = 5000;  // টাইপ শেষ হওয়ার ৫ সেকেন্ড পর মুছে আবার শুরু
 const TYPE_SPEED = 80;       // প্রতি অক্ষরে মিলিসেকেন্ড
 const ROLE_EVERY = 10000;    // প্রতি ১০ সেকেন্ডে টাইটেল বদলাবে
@@ -63,7 +63,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" className="overflow-hidden bg-primary pt-14 text-black">
+    <section id="home" className="overflow-hidden bg-primary pt-10 lg:pt-20 text-black">
       <div className="mx-auto grid min-h-[60vh] max-w-6xl items-end gap-6 px-5 md:grid-cols-2">
         <div className="self-center py-8">
           <p className="mb-3 font-semibold">{lines[0]}</p>
@@ -95,7 +95,7 @@ export default function Hero() {
               Contact Me <ArrowRight size={16} />
             </a>
             <a href={SITE.cv} target="_blank" rel="noopener noreferrer" className="btn btn-outline rounded-none border-2 border-black text-black hover:bg-black hover:text-white">
-              <FileText size={16} /> Show CV
+              <FileText size={16} /> View Resume
             </a>
           </div>
         </div>
