@@ -35,7 +35,7 @@ export default function Navbar({ theme, toggleTheme }) {
   }, []);
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-base-content/10 bg-base-100/85 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-6xl items-center px-5">
+      <div className="mx-auto flex h-14  items-center px-10">
         <a href="#home" className="flex items-center gap-2">
           <Logo />
           <span className="font-head text-xl tracking-wide">ROB<span className="text-primary">i</span></span>

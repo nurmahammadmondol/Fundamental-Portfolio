@@ -14,7 +14,7 @@ export const SITE = {
 // Hero তে প্রতি ১০ সেকেন্ডে একটার পর একটা এই টাইটেলগুলো দেখাবে
 export const ROLES = [
   "MERN Stack Developer",
-  "Software Developer",
+  "Software Engineer",
   "Full Stack Developer",
   "Entrepreneur",
   "Computer Operator",
@@ -67,7 +67,7 @@ export const SKILLS = [
   { group: "Tools & Technologies", items: [
     { name: "Git", img: dev("git") }, { name: "GitHub", img: dev("github"), invert: true },
     { name: "VS Code", img: dev("vscode") }, { name: "Netlify", img: dev("netlify") },
-    { name: "Vercel", icon: "Vercel" }, { name: "Postman", img: dev("postman") },
+    { name: "Vercel", icon: "Vercel" }
   ]},
   { group: "Computer Office Applications", items: [
     { name: "Microsoft Word", icon: "Word" }, { name: "Microsoft Excel", icon: "Excel" },

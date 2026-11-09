@@ -23,7 +23,7 @@ A modern, responsive and animated personal portfolio website showcasing my profi
 
 ## 📬 Contact
 - **Name:** Nur Mahammad Mondol Robiul
-- **Portfolio:** [Visit My Portfolio](https://nurmahammadmondol.netlify.app/)
+- **Previous Portfolio:** [Visit My Portfolio](https://nurmahammadmondol.netlify.app/)
 - **GitHub:** [My GitHub Profile](YOUR_GITHUB_URL)
 - **LinkedIn:** [My LinkedIn Profile](YOUR_LINKEDIN_URL)
 
